@@ -1,0 +1,12 @@
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\magali.gracia\Documents\TUP\Parciales\PP2017\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\magali.gracia\Documents\TUP\Parciales\Mascotas\Biblioteca\obj\Debug\Biblioteca.pdb
