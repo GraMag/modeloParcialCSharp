@@ -63,6 +63,7 @@
             this.lstStock.Name = "lstStock";
             this.lstStock.Size = new System.Drawing.Size(370, 404);
             this.lstStock.TabIndex = 4;
+           // this.lstStock.SelectedIndex = 0;
             // 
             // rtbInformes
             // 
@@ -119,9 +120,10 @@
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             //
-            //Vendedor
+            // Vendedor
             //
             this.vendedor = new Parcial.Vendedor("Pepito");
+
         }
 
         #endregion

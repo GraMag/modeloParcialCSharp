@@ -40,11 +40,7 @@ namespace Parcial
         {
             get 
             {
-                if(stock > 0 && importe > 0)
-                {
-                    return true;
-                }
-                return false;
+                return stock > 0 && importe > 0;
             }
         }
 
@@ -71,7 +67,7 @@ namespace Parcial
             {
                 if(value >= 0)
                 {
-                    this.stock = value;
+                    stock = value;
                 }
             }
         }
@@ -94,12 +90,7 @@ namespace Parcial
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Nombre {ToString()}");
             sb.AppendLine($"Stock: {Stock}");
-            if (EsColor)
-            {
-                sb.AppendLine($"Color: SI");
-            } else {
-                sb.AppendLine($"Color: NO");
-            }
+            sb.AppendLine($"Color: {(EsColor ? "SI" : "NO")}");
             sb.AppendLine($"Valor: ${Importe}");
             return sb.ToString();
         }

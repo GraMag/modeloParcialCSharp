@@ -21,11 +21,7 @@ namespace Parcial
         {
             get
             { 
-                if(Stock > 0)
-                {
-                    return true;
-                }
-                return false;
+                return Stock > 0;
             }
         }
         

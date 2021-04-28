@@ -38,19 +38,20 @@ namespace FrmTest
 
         private void btnVender_Click(object sender, EventArgs e)
         {
-            foreach (Publicacion publi in biblioteca)
+            if(biblioteca != null && vendedor != null && lstStock.SelectedItem != null)
             {
-                if (lstStock.SelectedItem.ToString().Equals(publi.ToString()))
+                foreach (Publicacion publi in biblioteca)
                 {
-                     if(vendedor + publi)
-                     {
-                         MessageBox.Show(publi.Informacion());
-                     } else {
-                         MessageBox.Show("Sin Stock");
-                     }
-                    break;
+                    if (lstStock.SelectedItem.ToString().Equals(publi.ToString()))
+                    {
+                        MessageBox.Show(vendedor + publi ? publi.Informacion() : "Sin stock", "Ventas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        break;
+                    }
                 }
+            } else {
+                MessageBox.Show("Ha sucedido un error", "Oh no!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         private void btnVerInforme_Click(object sender, EventArgs e)
@@ -73,5 +74,6 @@ namespace FrmTest
                 this.Close();
             }
         }
+
     }
 }
